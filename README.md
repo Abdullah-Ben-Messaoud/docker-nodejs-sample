@@ -12,6 +12,11 @@ Dir werden nach diesem Schritt einige Fragen gestellt, hier sind die antworten:
 ? Which package manager do you want to use? npm. <br>
 ? What command do you want to use to start the app: node src/index.js. <br>
 ? What port does your server listen on? 3000. <br>
+## Schritt 3 - Starte die Applikation
+1. Gib im Terminal (wieder im Directory "docker-nodejs-sample") den `docker compose up --build` Befehl ein, um die Applikation zu Starten:
+2. Der folgende [Link](http://localhost:3000) führt zu der Todo Applikation.
+3. Wenn man die Applikation stoppen möchte, muss man im Terminal die Tastenkombination `ctrl + c` benutzen.
+4. Um es ganz abzuschalten, muss man den Befehl `docker compose down`
 
 
 
